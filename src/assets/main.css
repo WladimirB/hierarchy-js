@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.toggler {
+  cursor: pointer;
+}
+
+.animate-height {
+  overflow: hidden;
+  height: auto;
+  transition: height .5s ease;
+}
+
+.closed {
+  height: 0;
+}
